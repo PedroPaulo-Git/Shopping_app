@@ -1,0 +1,11 @@
+.Headerlink{
+ margin-inline:20px;
+ text-decoration: none;
+ display: flex;
+ align-items: center;
+ color: white;
+
+}
+.imglink{
+    margin-right: 5px;
+}

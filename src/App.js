@@ -1,25 +1,36 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
+import Home from './pages/Home';
+import CartPage from './pages/CartPage'
+import styles from './styles/nav.module.css'
+import CarrinhoIcon from './img/iconcarrinho.png';
+import HomeIcon from './img/iconcasa.png'
+import HeaderHome from './components/componentsHome/Header'
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  
+    return (
+      <div className="App">
+        <Router>
+          <div>
+            <nav>
+                <Link className={styles.Headerlink} to={'/'}> <img  className={styles.imglink} src={HomeIcon}/> Home</Link>
+
+                <Link className={styles.Headerlink} to={'/Carrinho'}><img  className={styles.imglink} src={CarrinhoIcon}/>Carrinho</Link>
+            </nav>
+            <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Carrinho" element={[<HeaderHome/>,<CartPage />]}/>
+            </Routes>
+
+          </div>
+        </Router>
+     </div>
+      )
+     
+ 
+
 }
 
 export default App;

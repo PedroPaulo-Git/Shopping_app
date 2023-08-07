@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(195, 255, 255);
+}
+.CartDet{
+    color: black;
+    border-right: 2px solid rgb(196, 196, 196);
+    background-color:rgb(195, 255, 255);
+    width: 200px;
+    height: 160%;
+    margin-bottom: 100px;
+    position: fixed;
+    left: 0;
+    padding-inline: 25px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.CartLI{
+    
+    margin-left: 0;
+    list-style-type: none;
+    border: solid black 1px;
+    padding: 10px;
+    padding-inline: 20px;
+    margin-block:15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Carth2{
+    color: rgb(94, 94, 94);
+    margin-bottom: 30px;
+}
