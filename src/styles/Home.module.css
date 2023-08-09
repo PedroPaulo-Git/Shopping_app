@@ -1,0 +1,43 @@
+.contentHome_Anuncio{
+    background-color: antiquewhite;
+    
+}
+.containerHome_Sale{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    height: 40vh;
+
+}
+h4.contentHome_tittle1{
+justify-content: center; 
+display: flex;   
+position: absolute;
+background-color: aqua;
+padding: 5px;
+font-weight: 700;
+width: 40px;
+}
+h4.contentHome_tittle{
+font-weight: 500;
+justify-content: center; 
+display: flex;
+position: absolute;
+color: rgb(214, 214, 214);
+background-color: rgb(27, 27, 27);
+padding: 5px;
+width: 40px;
+}
+.contentHome_Sale{
+    margin-inline: 5vh;
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+.containerHome{
+    background-color: blue;
+    margin-top: 200px;
+}

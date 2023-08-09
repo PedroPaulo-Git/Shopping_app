@@ -1,0 +1,29 @@
+.subHeader_itensAll{
+    padding-inline:25px;
+    background-color: rgb(0, 58, 58);
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    height: 35px;
+    justify-content: center;
+
+}
+.subheader_active{
+    background-color: aqua;
+    height: 100%;
+    align-items: center;
+}
+a.a_subheader{
+    margin-inline: 20px;
+    
+}
+a.a_subheader,.subheader_active{
+    display: flex;
+    width: 10%;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+}

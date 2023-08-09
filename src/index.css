@@ -3,6 +3,7 @@
   src: url(font/Raleway-VariableFont_wght.ttf)
 }
 body {
+  padding-top: 15vh;
   margin: 0;
   font-family:"Raleway", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

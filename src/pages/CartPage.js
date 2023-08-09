@@ -5,6 +5,7 @@ return(
         <div className={styles.CartDet}>
             <h2 className={styles.Carth2}>Mostrar resultados para:</h2>
         <ul>
+            
             <li className={styles.CartLI}>Todos</li>
             <li className={styles.CartLI}>Eletrônicos</li>
             <li className={styles.CartLI}>Livros</li>

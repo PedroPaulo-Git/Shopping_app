@@ -1,8 +1,32 @@
 *{
+    
     margin: 0;
     padding: 0;
     font-size: 16px;
 }
+.HeaderlinkNav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    margin-right: 65px;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+  
+  }
+  .Headerlink{
+    margin-inline:20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+   
+   }
+   .imglink{
+       margin-right: 5px;
+   }
+
 .inputAll{
     width: 100%;
     align-items: center;
@@ -38,7 +62,7 @@
     position: fixed;
     width: 100%;
     background-color: rgb(0, 37, 37);
-    height: 10%;
+    height: 15vh;
     display: flex;
     align-items: center;
     top: 0;
@@ -46,12 +70,13 @@
 }
 .icon{
    position: relative;
-   width:80px;
+   width:90px;
 }
 .spanShopping{
     color: rgb(0, 230, 250);
-    font-size: 18px;
+    font-size: 22px;
 }
 .spanPedro{
     color: rgb(255, 255, 255);
+    font-size: 18px;
 }

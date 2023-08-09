@@ -5,27 +5,23 @@ import CartPage from './pages/CartPage'
 import styles from './styles/nav.module.css'
 import CarrinhoIcon from './img/iconcarrinho.png';
 import HomeIcon from './img/iconcasa.png'
-import HeaderHome from './components/componentsHome/Header'
+import HeaderHome from './components/componentsHome/Header';
 
 
 function App() {
   
     return (
       <div className="App">
+
         <Router>
           <div>
-            <nav>
-                <Link className={styles.Headerlink} to={'/'}> <img  className={styles.imglink} src={HomeIcon}/> Home</Link>
-
-                <Link className={styles.Headerlink} to={'/Carrinho'}><img  className={styles.imglink} src={CarrinhoIcon}/>Carrinho</Link>
-            </nav>
-            <Routes>
+          <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Carrinho" element={[<HeaderHome/>,<CartPage />]}/>
-            </Routes>
-
+          </Routes>
           </div>
         </Router>
+
      </div>
       )
      
