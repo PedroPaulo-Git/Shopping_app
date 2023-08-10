@@ -1,12 +1,26 @@
 .contentHome_Anuncio{
-    background-color: antiquewhite;
+    cursor: pointer;
     
 }
+.containerHome_Tittle{
+    padding-block:2vh;
+    display: flex;
+   
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.containerHome_Tittle_Span{
+    background-color: black;
+    width: 25vh;
+    height: 2px;
+    margin-inline: 10vh;
+}
 .containerHome_Sale{
+   
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: white;
     height: 40vh;
 
 }
@@ -30,14 +44,36 @@ padding: 5px;
 width: 40px;
 }
 .contentHome_Sale{
+    cursor: pointer;
     margin-inline: 5vh;
     display:flex;
     flex-direction: column;
 
 }
+.contentHome_addCart_Active{
+    cursor: pointer;
+    padding: 1vh;
+    border-radius: 2vh;
+    border: 2px solid rgb(2, 131, 136);
+    background-color: rgb(0, 247, 255);
+}
+.contentHome_addCart{
+    cursor: pointer;
+    font-size: 16px;
+    padding: 1vh;
+    border-radius: 2vh;
+    border: 2px solid rgb(0, 83, 94);
+    background-color: rgb(255, 255, 255);
+}
+.contentHome_preco{
+    display: flex;
+}
+.contentHome_preco_p{
+    font-weight: 700;
+}
 
 
 .containerHome{
     background-color: blue;
-    margin-top: 200px;
+    margin-top: 120px;
 }

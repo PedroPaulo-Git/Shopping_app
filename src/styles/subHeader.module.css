@@ -15,15 +15,17 @@
     background-color: aqua;
     height: 100%;
     align-items: center;
+    color: black;
+    font-weight: 600;
 }
 a.a_subheader{
     margin-inline: 20px;
-    
+    color: white;
 }
 a.a_subheader,.subheader_active{
     display: flex;
     width: 10%;
-    color: white;
+    
     text-decoration: none;
     justify-content: center;
 }
