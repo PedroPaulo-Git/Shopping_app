@@ -23,6 +23,17 @@
     color: white;
    
    }
+   .items_count{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top:30%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: Red;
+   }
    .imglink{
        margin-right: 5px;
    }

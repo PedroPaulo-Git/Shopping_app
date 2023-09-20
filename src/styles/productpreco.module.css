@@ -1,0 +1,28 @@
+.contentHome_addCart {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 1vh;
+    border-radius: 1vh;
+    border: 1px solid rgb(182, 230, 236);
+    box-shadow: 3px 3px 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+h4.contentHome_tittle {
+    font-weight: 500;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    color: rgb(214, 214, 214);
+    background-color: rgb(27, 27, 27);
+    padding: 5px;
+    width: 40px;
+}
+
+.contentHome_Sale {
+    cursor: pointer;
+    margin-inline: 5vh;
+    display: flex;
+    flex-direction: column;
+
+}

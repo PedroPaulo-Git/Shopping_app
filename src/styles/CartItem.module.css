@@ -1,0 +1,29 @@
+.mainContainerCart{
+     border: 3px solid black;
+     margin-block: 2%;
+     padding: 20px;
+     width: 100%;
+}
+.img_Cart{
+    width: 15%;
+}
+.ContainerCart{
+    display: flex;
+   
+
+}
+.ContainerCart_infoProducts{
+    margin-left: 20px;
+}
+.nameItem{
+    font-size: 25px;
+}
+.precoItem{
+
+}
+.buttonItem{
+    align-items: center;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+}
