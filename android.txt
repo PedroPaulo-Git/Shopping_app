@@ -1,0 +1,27 @@
+ {/* */}     {showCart && (
+                    <div className={styles.CartItensAdd}>
+                        <div> {cartItems.lenght === 0 ? (
+                        <h4>Carrinho Vazio</h4>
+                        ) : (
+                            <ul>
+                                {cartItems.map(item => (
+                                    <CartItem key={item._id} item={item} />
+                                ))}
+                            </ul>
+                        )}
+                        </div>
+                        <div className={styles.CartItensTOTAL}>
+                            <div>
+                                Cart Total
+                            </div>
+                            <div>
+
+                            </div>
+                            <div>
+                                {formatCurrency(cartItems.reduce(
+                                    (amount, item) => item.price + amount, 0),
+                                    opts)}
+                            </div>
+                        </div>
+                    </div>
+                )}

@@ -1,7 +1,7 @@
 import styles from '../../styles/HeaderHome.module.css';
 import Icon from '../../img/icon.png';
 import Lupa from '../../img/magnifying-glass-solid.svg';
-import { BrowserRouter as  Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import CarrinhoIcon from '../../img/iconcarrinho.png';
 import HomeIcon from '../../img/iconcasa.png';
 import CartContext from '../../context/Cart/CartContext';

@@ -1,27 +1,37 @@
 .mainContainerCart{
-     border: 3px solid black;
+ box-shadow: 1px 12px 25px rgb(187, 187, 187);
      margin-block: 2%;
      padding: 20px;
-     width: 100%;
+     width: 80%;
 }
 .img_Cart{
     width: 15%;
 }
 .ContainerCart{
     display: flex;
+    flex-direction: row;
    
 
 }
 .ContainerCart_infoProducts{
     margin-left: 20px;
+    width: 100%;
 }
+
 .nameItem{
-    font-size: 25px;
+    font-size: 18px;
+    font-weight: 600;
 }
 .precoItem{
-
+    font-size: 16px;
+    
 }
 .buttonItem{
+    
+    margin-top: 3%;
+    border: none;
+    box-shadow:
+    5px 5px  10px rgb(187, 187, 187);
     align-items: center;
     padding: 5px;
     width: 150px;

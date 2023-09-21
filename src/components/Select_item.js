@@ -11,7 +11,7 @@ function Select_item () {
             <div className={styles.Select_item}>
 
                 <img
-                    src={roupa1} // URL da imagem temporária
+                    src={roupa1} 
                     alt="imagem das camisas"
                     width="400"
                     height="450"

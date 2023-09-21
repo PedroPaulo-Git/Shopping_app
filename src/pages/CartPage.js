@@ -25,22 +25,47 @@ function CartPage() {
                     <li className={styles.CartLI}>Pet Shop</li>
                     <li className={styles.CartLI}>Esportes e Lazer</li>
                     <li className={styles.CartLI}>Outros</li>
-                  
+
 
                 </ul>
 
             </div>
             <div className={styles.Cart_container}>
+
+                <div className={styles.Cart_container_Products}>
+                    <h1 className={styles.CartItensAdded_titulo_produtos}>Produtos do carrinho</h1>
+
                     <div className={styles.CartItensAdded}>
-                    
-                                {cartItems.map(item => (
-                                    <CartItem key={item._id} item={item} />
-                                ))}
-                           
+
+                        {cartItems.map(item => (
+
+                            <CartItem key={item._id} item={item} />
+                        ))}
+
+
+                    </div>
+                    {/*<button onClick={showHideCart}>mostrar carrinho</button>*/}
+                </div>
+                <div className={styles.CartItens_totalpreco}>
+                   
+                    <h1 className={styles.CartItensAdded_titulo}>Resumo</h1>
+                   
+                    <div className={styles.CartItens_totalpreco_soma}>
+                            <p className={styles.CartItens_totalpreco_p}>Total produtos:</p>
+                            <p className={styles.CartItens_totalpreco_p}>Frete:</p>
+                            <p className={styles.CartItens_totalpreco_p}>Adicionar Cupom</p>
+
+                            <h1 className={styles.CartItens_totalpreco_h1}>Total:</h1>
                             
-                        </div>  
-                        <button onClick={showHideCart}>mostrar carrinho</button>
+                    </div>
+                    <div>
+                        <button  className={styles.CartItens_totalpreco_button}>Concluir</button>
+                    </div>
+               
+               
+                </div>
             </div>
+
         </div>
 
     )
